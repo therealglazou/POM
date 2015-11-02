@@ -47,9 +47,9 @@ class PublicationManager {
    *   never throws.
    */
   public function registerPublication(format: String, classInfo: String) {
-    // unregister first if already registered
-    if (this.isPublicationRegistered(format))
-      this.unregisterPublication(format);
+    // unregister first just in case it's already registered
+    // this is harmless if the publication was not registered
+    this.unregisterPublication(format);
 
     // create a new registration and push it
     var declaration = new PublicationRegistration(format, classInfo);
