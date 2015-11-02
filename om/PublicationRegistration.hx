@@ -15,7 +15,7 @@
  *
  * The Initial Developer of the Original Code is
  * Disruptive Innovations SAS
- * Portions created by the Initial Developer are Copyright (C) 2010
+ * Portions created by the Initial Developer are Copyright (C) 2015
  * the Initial Developer. All Rights Reserved.
  *
  * Contributor(s):
